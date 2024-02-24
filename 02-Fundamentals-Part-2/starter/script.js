@@ -53,7 +53,7 @@ console.log(calcAverage([2, 3, 7]).toFixed(2)); // 4.00
 //https://www.youtube.com/watch?v=5DhDhTO_ALw
 // cum se calculaeaza sirul a + b = c ; transcirem a in b  si b in c
 // 0 1 1 2 3 5 8 13 21 34 55 89 144 ...
-
+/*
 let a = 0;
 let b = 1;
 let c = 0;
@@ -64,3 +64,31 @@ while (c <= 1000) {
   a = b;
   b = c;
 }
+*/
+
+
+///
+// Numarul par si impar 
+/*
+let input = prompt("Introduceți un număr întreg sau 'stop' pentru a încheia:");
+
+while (input !== "stop") {
+  const number = parseInt(input);
+
+  if (isNaN(number)) {
+    console.log("Introduceți un număr valid sau 'stop' pentru a încheia.");
+  } else {
+    if (number % 2 === 0) {
+      console.log(`${number} este un număr par.`);
+    } else {
+      console.log(`${number} este un număr impar.`);
+    }
+  }
+
+  input = prompt(
+    "Introduceți un alt număr întreg sau 'stop' pentru a încheia:"
+  );
+}
+
+console.log("Programul a fost încheiat.");
+*/
